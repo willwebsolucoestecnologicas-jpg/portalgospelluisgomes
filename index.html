@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Gospel Luisgomense - Luís Gomes / RN</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style-portal.css">
+</head>
+<body>
+
+    <nav class="nav-portal">
+        <div class="logo-container">
+            <img src="logo-portal-gospel.png" alt="Portal Gospel Luisgomense Emblem" class="logo-emblem">
+            <div class="logo-text-block">
+                <span class="logo-brand">PORTAL GOSPEL</span>
+                <span class="logo-descriptor">LUISGOMENSE</span>
+                <span class="logo-location">LUÍS GOMES / RN</span>
+            </div>
+        </div>
+        <span class="nav-brand-text">Portal Gospel Luís Gomes / RN</span>
+    </nav>
+
+    <header class="hero-portal">
+        <h1 class="hero-title">A Agenda Cristã da Nossa Cidade</h1>
+        <p class="hero-subtitle">Encontre cultos, eventos e programações de todas as igrejas em um só lugar.</p>
+    </header>
+
+    <div class="container">
+        <div class="filter-section card">
+            <label><span class="material-icons" style="vertical-align: middle; font-size: 18px;">filter_list</span> Filtrar por Igreja:</label>
+            <select id="filtroIgreja" onchange="filtrarEventos()">
+                <option value="todas">Todas as Igrejas</option>
+                <option value="Assembleia de Deus">Assembleia de Deus</option>
+                <option value="Igreja de Cristo">Igreja de Cristo</option>
+                <option value="Batista">Igreja Batista</option>
+            </select>
+        </div>
+
+        <h2 class="section-title">Programação da Semana</h2>
+        <div id="listaPortal" class="portal-grid">
+            </div>
+
+        <div class="ad-space card">
+            <small>ANÚNCIO</small>
+            <p>Sua empresa aqui no Portal Gospel!</p>
+            <a href="https://wa.me/5584996106961" target="_blank" class="btn-small">Anunciar Agora</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Portal Gospel Luís Gomes</p>
+        <div class="dev-credits">
+            <span>Tecnologia por:</span>
+            <a href="https://wa.me/5584996106961" target="_blank" class="dev-link">WillWeb Soluções</a>
+        </div>
+    </footer>
+
+    <script src="script-portal.js"></script>
+</body>
+</html>

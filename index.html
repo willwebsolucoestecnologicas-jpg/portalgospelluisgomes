@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Gospel Luisgomense - Luís Gomes / RN</title>
+    <meta name="description" content="A agenda cristã de Luís Gomes, RN. Encontre cultos, eventos e programações de todas as igrejas da cidade em um só lugar.">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style-portal.css">
+</head>
+<body>
+
+    <nav class="nav-portal">
+        <div class="logo-container">
+            <img src="logo-portal-gospel.png" alt="Emblema do Portal Gospel Luisgomense" class="logo-emblem">
+            <div class="logo-text-block">
+                <span class="logo-brand">Portal Gospel</span>
+                <span class="logo-descriptor">Luisgomense</span>
+                <span class="logo-location">Luís Gomes · RN</span>
+            </div>
+        </div>
+        <a href="https://wa.me/5584996106961" target="_blank" class="nav-cta">
+            <span class="material-icons" style="font-size:16px;">campaign</span> Anunciar
+        </a>
+    </nav>
+
+    <header class="hero-portal">
+        <div class="hero-halo" aria-hidden="true"></div>
+        <div class="hero-stars" aria-hidden="true"></div>
+
+        <div class="hero-emblem-wrap">
+            <img src="logo-portal-gospel.png" alt="Emblema do Portal Gospel Luisgomense" class="hero-emblem">
+        </div>
+
+        <span class="hero-eyebrow">Luís Gomes · Rio Grande do Norte</span>
+        <h1 class="hero-title">A agenda cristã <em>da nossa cidade</em></h1>
+        <p class="hero-subtitle">Cultos, encontros e celebrações de todas as igrejas de Luís Gomes, reunidos em um só lugar.</p>
+
+        <div class="hero-stats" id="heroStats">
+            <div class="hero-stat"><strong id="statIgrejas">0</strong><span>Igrejas</span></div>
+            <div class="hero-stat"><strong id="statEventos">0</strong><span>Eventos</span></div>
+            <div class="hero-stat"><strong id="statHoje">0</strong><span>Hoje</span></div>
+        </div>
+    </header>
+
+    <div class="arch-divider" aria-hidden="true">
+        <svg viewBox="0 0 800 34" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0,34 L0,17 a17,17 0 0 1 34,0 a17,17 0 0 1 34,0 a17,17 0 0 1 34,0 a17,17 0 0 1 34,0 a17,17 0 0 1 34,0 a17,17 0 0 1 34,0 a17,17 0 0 1 34,0 a17,17 0 0 1 34,0 a17,17 0 0 1 34,0 a17,17 0 0 1 34,0 a17,17 0 0 1 34,0 a17,17 0 0 1 34,0 a17,17 0 0 1 34,0 a17,17 0 0 1 34,0 a17,17 0 0 1 34,0 a17,17 0 0 1 34,0 a17,17 0 0 1 34,0 a17,17 0 0 1 34,0 a17,17 0 0 1 34,0 a17,17 0 0 1 34,0 a17,17 0 0 1 34,0 a17,17 0 0 1 34,0 L800,34 Z" fill="#FBF6EC"/>
+        </svg>
+    </div>
+
+    <main class="container filters-section">
+
+        <div class="filter-block">
+            <div class="filter-label"><span class="material-icons">event</span> Ver por dia</div>
+            <div class="chip-row" id="chipDias" role="group" aria-label="Filtrar por dia"></div>
+        </div>
+
+        <div class="filter-block">
+            <div class="filter-label"><span class="material-icons">church</span> Filtrar por igreja</div>
+            <div class="chip-row" id="chipIgrejas" role="group" aria-label="Filtrar por igreja"></div>
+        </div>
+
+        <div class="agenda-wrap" id="agendaWrap" aria-live="polite">
+            </div>
+
+        <div class="ad-space card">
+            <small>Anúncio</small>
+            <p>Sua empresa aqui no Portal Gospel!</p>
+            <a href="https://wa.me/5584996106961" target="_blank" class="btn-small">Anunciar Agora</a>
+        </div>
+    </main>
+
+    <div class="arch-divider flip" aria-hidden="true">
+        <svg viewBox="0 0 800 34" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0,34 L0,17 a17,17 0 0 1 34,0 a17,17 0 0 1 34,0 a17,17 0 0 1 34,0 a17,17 0 0 1 34,0 a17,17 0 0 1 34,0 a17,17 0 0 1 34,0 a17,17 0 0 1 34,0 a17,17 0 0 1 34,0 a17,17 0 0 1 34,0 a17,17 0 0 1 34,0 a17,17 0 0 1 34,0 a17,17 0 0 1 34,0 a17,17 0 0 1 34,0 a17,17 0 0 1 34,0 a17,17 0 0 1 34,0 a17,17 0 0 1 34,0 a17,17 0 0 1 34,0 a17,17 0 0 1 34,0 a17,17 0 0 1 34,0 a17,17 0 0 1 34,0 a17,17 0 0 1 34,0 L800,34 Z" fill="#10152A"/>
+        </svg>
+    </div>
+
+    <footer>
+        <img src="logo-portal-gospel.png" alt="" class="footer-emblem" aria-hidden="true">
+        <p class="copyright">&copy; 2026 Portal Gospel Luís Gomes / RN</p>
+        <div class="dev-credits">
+            <span>Tecnologia por:</span>
+            <a href="https://wa.me/5584996106961" target="_blank" class="dev-link">WillWeb Soluções</a>
+        </div>
+    </footer>
+
+    <script src="script-portal.js"></script>
+</body>
+</html>
